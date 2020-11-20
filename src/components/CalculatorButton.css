@@ -1,0 +1,37 @@
+button {
+  min-width: 25%;
+  min-height: 40px;
+  font-size: 25px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.3em 0.5em;
+  outline: none;
+}
+
+button:active {
+  transform: translateY(1px);
+  filter: saturate(-500%);
+}
+
+button:hover:not(.primary) {
+  background-color: gray;
+}
+
+.large {
+  min-width: 50%;
+}
+
+.primary {
+  background-color: darkslateblue;
+}
+
+button:hover {
+  background-color: slateblue;
+}

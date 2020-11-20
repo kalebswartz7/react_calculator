@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Calculator {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+
+
+
